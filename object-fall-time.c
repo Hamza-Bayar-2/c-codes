@@ -24,7 +24,7 @@ int main(void)
                 t = (vl - vi) / g;
 
                 printf("Falling time is (%.3f) s\n", t);
-                printf("Latest velocity is (%.3f) v\n", vl);
+                printf("Latest velocity is (%.3f) m/s\n", vl);
                 
         }
         else if (choose == 2)
@@ -39,7 +39,7 @@ int main(void)
                 vl = g * t;
         
                 printf("Falling time is (%.3f) s\n", t);
-                printf("Latest velocity is (%.3f) v", vl);
+                printf("Latest velocity is (%.3f) m/s", vl);
         }
         
         return 0;
