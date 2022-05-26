@@ -11,13 +11,13 @@ int main(void)
 
         if (choose == 1)
         {
-                printf("Please enter the initial velocity of the object: ");
+                printf("Please enter the initial velocity of the object (m/s): ");
                 scanf("%f", &vi);
 
-                printf("Please enter the height of the object from the ground: ");
+                printf("Please enter the height of the object from the ground (m): ");
                 scanf("%f", &h);
 
-                printf("Please enter the gravity: ");
+                printf("Please enter the gravity (N/kg): ");
                 scanf("%f", &g);
 
                 vl = sqrt(pow(vi, 2) + (2 * g * h));
@@ -29,10 +29,10 @@ int main(void)
         }
         else if (choose == 2)
         {
-                printf("Please enter the height of the object from the ground: ");
+                printf("Please enter the height of the object from the ground (m): ");
                 scanf("%f", &h);
 
-                printf("Please enter the gravity: ");
+                printf("Please enter the gravity (N/kg): ");
                 scanf("%f", &g);
 
                 t = sqrt((2 * h) / g);
